@@ -1,0 +1,1 @@
+{"version":3,"file":"is-keyboard-element.js","sourceRoot":"","sources":["../../src/utils/is-keyboard-element.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,iBAAiB,GAAG,CAAC,OAA2B,EAAW,EAAE;IACtE,IAAI,OAAO,KAAK,IAAI,EAAE;QAClB,OAAO,KAAK,CAAC;KAChB;IAED,MAAM,IAAI,GAAI,OAAkD,CAAC,IAAI,CAAC;IAEtE,OAAO,IAAI,KAAK,UAAU,IAAI,IAAI,KAAK,MAAM,IAAI,IAAI,KAAK,KAAK,CAAC;AACpE,CAAC,CAAC"}
