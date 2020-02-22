@@ -98,13 +98,12 @@ export const Gist = ({ lrcDispatch, langName }) => {
         });
     }, [gistId]);
     const onFileLoad = useCallback((ev) => {
-        var _a;
         const target = ev.target;
         if (!("key" in target.dataset)) {
             return;
         }
         const key = Number.parseInt(target.dataset.key, 10);
-        const file = (_a = fileList) === null || _a === void 0 ? void 0 : _a[key];
+        const file = fileList === null || fileList === void 0 ? void 0 : fileList[key];
         if (!file) {
             return;
         }

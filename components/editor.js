@@ -12,7 +12,7 @@ const disableCheck = {
     spellCheck: false,
 };
 const useDefaultValue = (defaultValue, ref) => {
-    const or = (a, b) => (a !== null && a !== void 0 ? a : b);
+    const or = (a, b) => a !== null && a !== void 0 ? a : b;
     const $ref = or(ref, useRef(null));
     useEffect(() => {
         if ($ref.current) {

@@ -6,16 +6,16 @@ const polyfilldetails = () => {
     Object.defineProperties(prototype, {
         open: {
             get() {
-                var _a, _b;
+                var _a;
                 if (this.tagName === "DETAILS") {
                     return this.hasAttribute("open");
                 }
                 else {
-                    return (_b = (_a = openProperty) === null || _a === void 0 ? void 0 : _a.get) === null || _b === void 0 ? void 0 : _b.call(this);
+                    return (_a = openProperty === null || openProperty === void 0 ? void 0 : openProperty.get) === null || _a === void 0 ? void 0 : _a.call(this);
                 }
             },
             set(value) {
-                var _a, _b;
+                var _a;
                 if (this.tagName === "DETAILS") {
                     if (value !== this.hasAttribute("open")) {
                         const event = document.createEvent("Event");
@@ -25,7 +25,7 @@ const polyfilldetails = () => {
                     return value ? this.setAttribute("open", "") : this.removeAttribute("open");
                 }
                 else {
-                    return (_b = (_a = openProperty) === null || _a === void 0 ? void 0 : _a.set) === null || _b === void 0 ? void 0 : _b.call(this, value);
+                    return (_a = openProperty === null || openProperty === void 0 ? void 0 : openProperty.set) === null || _a === void 0 ? void 0 : _a.call(this, value);
                 }
             },
         },
