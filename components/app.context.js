@@ -29,7 +29,7 @@ export const AppProvider = ({ children }) => {
     useEffect(() => {
         document.title = lang.app.fullname;
         document.documentElement.lang = prefState.lang;
-    }, [lang, prefState.lang]);
+    }, [lang, prefState, prefState.lang]);
     const value = useMemo(() => {
         return {
             lang,

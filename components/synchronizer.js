@@ -32,7 +32,8 @@ export const Synchronizer = ({ state, dispatch }) => {
         [1]: highlightIndex,
     }[syncMode];
     useEffect(() => {
-        const line = ul.current.children[needScrollLine];
+        var _a;
+        const line = (_a = ul.current) === null || _a === void 0 ? void 0 : _a.children[needScrollLine];
         if (line !== undefined) {
             line.scrollIntoView({
                 behavior: "smooth",
