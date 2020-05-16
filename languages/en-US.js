@@ -77,6 +77,12 @@ export const language = {
         leftSpace: "Left space",
         rightSpace: "Right space",
         clearCache: "Clear caches",
+        themeMode: {
+            label: "Theme Mode",
+            auto: "auto",
+            light: "light",
+            dark: "dark",
+        },
     },
     notify: {
         audioLoaded: "Audio loaded.",

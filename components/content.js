@@ -87,6 +87,14 @@ export const Content = () => {
         });
     }, [lrcDispatch, trimOptions]);
     useEffect(() => {
+        const values = {
+            [0]: "auto",
+            [1]: "light",
+            [2]: "dark",
+        };
+        document.documentElement.dataset.theme = values[prefState.themeMode];
+    }, [prefState.themeMode]);
+    useEffect(() => {
         const rgb = hex2rgb(prefState.themeColor);
         document.documentElement.style.setProperty("--theme-rgb", rgb.join(", "));
         const lum = luminanace(...rgb);

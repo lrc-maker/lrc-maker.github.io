@@ -19,6 +19,7 @@ const initState = {
     builtInAudio: false,
     screenButton: false,
     themeColor: themeColor.pink,
+    themeMode: 0,
 };
 const reducer = (state, action) => {
     const payload = action.payload;
