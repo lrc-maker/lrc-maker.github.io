@@ -7,7 +7,7 @@ import { AsidePanel } from "./asidepanel.js";
 import { Curser } from "./curser.js";
 const { useCallback, useContext, useEffect, useRef, useState } = React;
 const SpaceButton = ({ sync }) => {
-    return (React.createElement("button", { className: "space_button", onClick: sync }, "space"));
+    return (React.createElement("button", { className: "space-button", onClick: sync }, "space"));
 };
 export const Synchronizer = ({ state, dispatch }) => {
     const self = useRef(Symbol(Synchronizer.name));

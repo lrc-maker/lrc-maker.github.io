@@ -247,7 +247,7 @@
         "affectsGlobalScope": false
       },
       "../src/components/synchronizer.tsx": {
-        "version": "e64948119f62db696b8ae458af517d96cebf97993233e77f16f39bb07199b051",
+        "version": "2c155384665b8819f650511cedbbe475c6d73edea587496278bb6fed7385d770",
         "signature": "83f1e97daa7dff7041836b92bf61120f2a5e309188e42d51faf89ff02847b54a",
         "affectsGlobalScope": false
       },
@@ -262,7 +262,7 @@
         "affectsGlobalScope": false
       },
       "../src/components/preferences.tsx": {
-        "version": "b0156cdab24f09d4f737cc00471ab6559df61dc69a105c2321868a239d06b116",
+        "version": "95f581dc349df255b5f1a83a18d33d49f2271bd5b672b6caff925147f0c258d6",
         "signature": "46c0b7c543bd56c29bf0667cab4678d151c753d98372e9a7055673b43d07d5bc",
         "affectsGlobalScope": false
       },
@@ -302,8 +302,8 @@
         "affectsGlobalScope": false
       },
       "../src/metadata.d.ts": {
-        "version": "33eb18e324f085178e48d46bc802b8b5762171375942f990021d124f9ecb547e",
-        "signature": "33eb18e324f085178e48d46bc802b8b5762171375942f990021d124f9ecb547e",
+        "version": "149cf7ac9003948b2d17f73874dfc9ea6e3c4431409d88639fb98e073beb8ca4",
+        "signature": "149cf7ac9003948b2d17f73874dfc9ea6e3c4431409d88639fb98e073beb8ca4",
         "affectsGlobalScope": true
       },
       "../types/post-message.d.ts": {

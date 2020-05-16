@@ -72,7 +72,7 @@ export const Preferences = () => {
         unregister();
     }, []);
     const updateTime = useMemo(() => {
-        const date = new Date("2020-05-16T20:02:26+08:00");
+        const date = new Date("2020-05-16T23:09:20+08:00");
         const options = {
             year: "numeric",
             month: "short",
@@ -147,11 +147,11 @@ export const Preferences = () => {
             React.createElement("li", null,
                 React.createElement("section", { className: "list-item" },
                     React.createElement("span", null, lang.preferences.version),
-                    React.createElement("span", { className: "select-all" }, "5.3.0"))),
+                    React.createElement("span", { className: "select-all" }, "5.3.1"))),
             React.createElement("li", null,
                 React.createElement("section", { className: "list-item" },
                     React.createElement("span", null, lang.preferences.commitHash),
-                    React.createElement("span", { className: "select-all" }, "77e0a72"))),
+                    React.createElement("span", { className: "select-all" }, "a31bfad"))),
             React.createElement("li", null,
                 React.createElement("section", { className: "list-item" },
                     React.createElement("span", null, lang.preferences.updateTime),
@@ -185,7 +185,7 @@ export const Preferences = () => {
                 React.createElement("section", { className: "list-item" },
                     React.createElement("span", null, lang.preferences.themeMode.label),
                     React.createElement("div", { className: "option-select" },
-                        React.createElement("select", { name: "fixed", value: prefState.themeMode, onChange: onThemeModeChange, "aria-label": lang.preferences.themeMode.label },
+                        React.createElement("select", { name: "theme-mode", value: prefState.themeMode, onChange: onThemeModeChange, "aria-label": lang.preferences.themeMode.label },
                             React.createElement("option", { value: 0 }, lang.preferences.themeMode.auto),
                             React.createElement("option", { value: 1 }, lang.preferences.themeMode.light),
                             React.createElement("option", { value: 2 }, lang.preferences.themeMode.dark))))),
