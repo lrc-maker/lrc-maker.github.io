@@ -1,6 +1,6 @@
 const APP_NAME = "akari-lrc-maker";
-const VERSION = "5.3.1";
-const HASH = "a31bfad";
+const VERSION = "5.4.0";
+const HASH = "96504bc";
 const CACHENAME = `${APP_NAME}-${VERSION}-${HASH}`;
 self.addEventListener("install", () => {
     self.skipWaiting();
