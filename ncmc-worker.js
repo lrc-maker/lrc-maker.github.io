@@ -72,4 +72,5 @@ self.addEventListener("message", async (ev) => {
     self.postMessage({ type: "success", payload: decryptedData }, [decryptedData.buffer]);
     self.close();
 });
+export {};
 //# sourceMappingURL=ncmc-worker.js.map

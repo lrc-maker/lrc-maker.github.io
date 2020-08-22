@@ -21,4 +21,5 @@ self.addEventListener("message", (ev) => {
     self.postMessage({ type: "success", payload: decryptedData }, [decryptedData.buffer]);
     self.close();
 });
+export {};
 //# sourceMappingURL=qmc-worker.js.map
