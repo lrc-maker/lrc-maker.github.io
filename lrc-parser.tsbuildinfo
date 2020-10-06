@@ -166,11 +166,6 @@
         "signature": "3706ac7d7e25e65aa7da0e0f3b5eedce4bf61de3f9a1436295f2ccddfd43815a",
         "affectsGlobalScope": true
       },
-      "../node_modules/@types/color-name/index.d.ts": {
-        "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
-        "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@types/node/globals.d.ts": {
         "version": "68aba9c37b535b42ce96b78a4cfa93813bf4525f86dceb88a6d726c5f7c6c14f",
         "signature": "68aba9c37b535b42ce96b78a4cfa93813bf4525f86dceb88a6d726c5f7c6c14f",
@@ -242,8 +237,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/http.d.ts": {
-        "version": "bbc5e63e6789b5dca3ed78bbeaaca9f6a67bad86e235726f35fdc7831c0fa553",
-        "signature": "bbc5e63e6789b5dca3ed78bbeaaca9f6a67bad86e235726f35fdc7831c0fa553",
+        "version": "08fb2b0e1ef13a2df43f6d8e97019c36dfbc0475cf4d274c6838e2c9223fe39d",
+        "signature": "08fb2b0e1ef13a2df43f6d8e97019c36dfbc0475cf4d274c6838e2c9223fe39d",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/http2.d.ts": {
@@ -392,8 +387,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/assert.d.ts": {
-        "version": "08d15b727da0c4f0870d98159311b5d4de1f0293dbb9f1261b6752962d2aa239",
-        "signature": "08d15b727da0c4f0870d98159311b5d4de1f0293dbb9f1261b6752962d2aa239",
+        "version": "3c3aa211dfaba6f6432034d633bba5f1f11054c695a12a607cb71d3e6d5b1aec",
+        "signature": "3c3aa211dfaba6f6432034d633bba5f1f11054c695a12a607cb71d3e6d5b1aec",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/base.d.ts": {
@@ -462,8 +457,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/react/index.d.ts": {
-        "version": "4d0733a248b011ae19a9fdab194b054ab951e2bebf4fbea8e5a614fe0d95369e",
-        "signature": "4d0733a248b011ae19a9fdab194b054ab951e2bebf4fbea8e5a614fe0d95369e",
+        "version": "7614c17962ba34bde824c485d7bbe056317fc0bfc3f963f3464f99d6438c8604",
+        "signature": "7614c17962ba34bde824c485d7bbe056317fc0bfc3f963f3464f99d6438c8604",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/react-dom/index.d.ts": {
@@ -892,7 +887,6 @@
       "../node_modules/@lrc-maker/lrc-parser/build/esm/lrc-parser.d.ts",
       "../node_modules/@lrc-maker/lrc-parser/build/umd/lrc-parser.d.ts",
       "../node_modules/@lrc-maker/lrc-parser/src/lrc-parser.ts",
-      "../node_modules/@types/color-name/index.d.ts",
       "../node_modules/@types/glob/index.d.ts",
       "../node_modules/@types/json-schema/index.d.ts",
       "../node_modules/@types/minimatch/index.d.ts",

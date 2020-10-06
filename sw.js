@@ -1,14 +1,16 @@
+"use strict";
+const swWorker = self;
 const APP_NAME = "akari-lrc-maker";
-const VERSION = "5.4.2";
-const HASH = "b2ff074";
+const VERSION = "5.4.3";
+const HASH = "c8a7769";
 const CACHENAME = `${APP_NAME}-${VERSION}-${HASH}`;
-self.addEventListener("install", () => {
-    self.skipWaiting();
+swWorker.addEventListener("install", () => {
+    swWorker.skipWaiting();
 });
-self.addEventListener("activate", (event) => {
+swWorker.addEventListener("activate", (event) => {
     event.waitUntil(caches.keys().then((cacheNames) => {
         return Promise.all([
-            self.clients.claim(),
+            swWorker.clients.claim(),
             ...cacheNames
                 .filter((cacheName) => {
                 return cacheName.startsWith(APP_NAME) && cacheName !== CACHENAME;
@@ -19,12 +21,12 @@ self.addEventListener("activate", (event) => {
         ]);
     }));
 });
-self.addEventListener("fetch", (event) => {
+swWorker.addEventListener("fetch", (event) => {
     if (event.request.method !== "GET") {
         return;
     }
     const url = new URL(event.request.url);
-    if (!/(?:\.css|\.js|\.svg)$/i.test(url.pathname) && url.origin !== self.location.origin) {
+    if (!/(?:\.css|\.js|\.svg)$/i.test(url.pathname) && url.origin !== swWorker.location.origin) {
         return;
     }
     event.respondWith(caches.match(event.request).then((match) => match ||
@@ -36,5 +38,4 @@ self.addEventListener("fetch", (event) => {
             return response;
         }))));
 });
-export {};
 //# sourceMappingURL=sw.js.map

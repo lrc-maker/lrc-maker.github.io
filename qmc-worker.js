@@ -1,3 +1,5 @@
+"use strict";
+const qmcWorker = self;
 const keys = [
     0xc3, 0x4a, 0xd6, 0xca, 0x90, 0x67, 0xf7, 0x52,
     0xd8, 0xa1, 0x66, 0x62, 0x9f, 0x5b, 0x09, 0x00,
@@ -8,7 +10,7 @@ const keys = [
     0xc3, 0xc6, 0x09, 0xd5, 0x9f, 0xfa, 0x66, 0xf9,
     0xd8, 0xf0, 0xf7, 0xa0, 0x90, 0xa1, 0xd6, 0xf3,
 ];
-self.addEventListener("message", (ev) => {
+qmcWorker.addEventListener("message", (ev) => {
     const file = ev.data;
     const filebuffer = new FileReaderSync().readAsArrayBuffer(file);
     const decryptedData = new Uint8Array(filebuffer).map((v, i) => {
@@ -18,8 +20,7 @@ self.addEventListener("message", (ev) => {
         }
         return v ^ keys[index];
     });
-    self.postMessage({ type: "success", payload: decryptedData }, [decryptedData.buffer]);
-    self.close();
+    qmcWorker.postMessage({ type: "success", payload: decryptedData }, [decryptedData.buffer]);
+    qmcWorker.close();
 });
-export {};
 //# sourceMappingURL=qmc-worker.js.map

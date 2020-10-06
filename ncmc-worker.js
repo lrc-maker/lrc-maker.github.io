@@ -1,3 +1,5 @@
+"use strict";
+const ncmcWorker = self;
 const CORE_KEY = Uint8Array.of(0x68, 0x7a, 0x48, 0x52, 0x41, 0x6d, 0x73, 0x6f, 0x35, 0x6b, 0x49, 0x6e, 0x62, 0x61, 0x78, 0x57);
 const AES_ECB_DECRYPT = async (keyData, data) => {
     const AES = {
@@ -26,13 +28,13 @@ const AES_ECB_DECRYPT = async (keyData, data) => {
     }
     return decrypted;
 };
-self.addEventListener("message", async (ev) => {
+ncmcWorker.addEventListener("message", async (ev) => {
     const file = ev.data;
     const filebuffer = new FileReaderSync().readAsArrayBuffer(file);
     const dataview = new DataView(filebuffer);
     if (dataview.getUint32(0, true) !== 0x4e455443 || dataview.getUint32(4, true) !== 0x4d414446) {
-        self.postMessage({ type: "error", payload: "not ncm file" });
-        self.close();
+        ncmcWorker.postMessage({ type: "error", payload: "not ncm file" });
+        ncmcWorker.close();
     }
     let offset = 10;
     const keyDate = (await (() => {
@@ -69,8 +71,7 @@ self.addEventListener("message", async (ev) => {
         }
         return data;
     })();
-    self.postMessage({ type: "success", payload: decryptedData }, [decryptedData.buffer]);
-    self.close();
+    ncmcWorker.postMessage({ type: "success", payload: decryptedData }, [decryptedData.buffer]);
+    ncmcWorker.close();
 });
-export {};
 //# sourceMappingURL=ncmc-worker.js.map
