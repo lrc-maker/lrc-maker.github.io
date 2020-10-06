@@ -232,7 +232,7 @@
         "affectsGlobalScope": false
       },
       "../src/components/editor.tsx": {
-        "version": "507c680fd48486f2b0973c8f39711bd649551fdb6d08de4b3fe5d6a251fa1de4",
+        "version": "13decc419416aaec3850626306d3970a4bffb9dd3ea7315a51302b9c2f6994cd",
         "signature": "efbbd3941466c416ee49f296c245e53ec755480946671f2c8090a7bbe4e280a3",
         "affectsGlobalScope": false
       },
@@ -302,8 +302,8 @@
         "affectsGlobalScope": false
       },
       "../src/metadata.d.ts": {
-        "version": "0c49de22cfd3a0c3bef86b2e3d7fcf01bdf178361ee6ddebfd6cc947ce2fd116",
-        "signature": "0c49de22cfd3a0c3bef86b2e3d7fcf01bdf178361ee6ddebfd6cc947ce2fd116",
+        "version": "8975afa8237b019d50f75e3a1d621354652c3f79e5822859e9dbfab8679122ae",
+        "signature": "8975afa8237b019d50f75e3a1d621354652c3f79e5822859e9dbfab8679122ae",
         "affectsGlobalScope": true
       },
       "../types/post-message.d.ts": {
@@ -552,8 +552,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/zlib.d.ts": {
-        "version": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8",
-        "signature": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8",
+        "version": "ab99ac6bfd84d493602cc1baa2c726a4df8f2ec8f3750b565ad17368c440db3b",
+        "signature": "ab99ac6bfd84d493602cc1baa2c726a4df8f2ec8f3750b565ad17368c440db3b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts3.4/base.d.ts": {
@@ -567,8 +567,8 @@
         "affectsGlobalScope": true
       },
       "../node_modules/@types/node/wasi.d.ts": {
-        "version": "0b3fef11ea6208c4cb3715c9aa108766ce98fc726bfba68cc23b25ce944ce9c0",
-        "signature": "0b3fef11ea6208c4cb3715c9aa108766ce98fc726bfba68cc23b25ce944ce9c0",
+        "version": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
+        "signature": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts3.6/base.d.ts": {

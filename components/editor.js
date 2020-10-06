@@ -114,7 +114,7 @@ export const Eidtor = ({ lrcState, lrcDispatch }) => {
                 React.createElement(DownloadSVG, null)),
             React.createElement("a", { title: lang.editor.saveToGist, href: canSaveToGist ? undefined : "#/gist/", className: "editor-tools-item ripple", onClick: canSaveToGist ? onGistSave : undefined },
                 React.createElement(CloudUploadSVG, null)),
-            React.createElement("a", { title: lang.editor.utils, href: "/lrc-utils", className: "editor-tools-item ripple" },
+            React.createElement("a", { title: lang.editor.utils, href: "/lrc-utils/", className: "editor-tools-item ripple" },
                 React.createElement(UtilitySVG, null))),
         React.createElement("textarea", Object.assign({ className: "app-textarea", "aria-label": "lrc input here", onBlur: parse }, disableCheck, useDefaultValue(text, textarea)))));
 };

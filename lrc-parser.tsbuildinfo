@@ -362,8 +362,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/zlib.d.ts": {
-        "version": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8",
-        "signature": "f409183966a1dd93d3a9cd1d54fbeb85c73101e87cd5b19467c5e37b252f3fd8",
+        "version": "ab99ac6bfd84d493602cc1baa2c726a4df8f2ec8f3750b565ad17368c440db3b",
+        "signature": "ab99ac6bfd84d493602cc1baa2c726a4df8f2ec8f3750b565ad17368c440db3b",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts3.4/base.d.ts": {
@@ -377,8 +377,8 @@
         "affectsGlobalScope": true
       },
       "../node_modules/@types/node/wasi.d.ts": {
-        "version": "0b3fef11ea6208c4cb3715c9aa108766ce98fc726bfba68cc23b25ce944ce9c0",
-        "signature": "0b3fef11ea6208c4cb3715c9aa108766ce98fc726bfba68cc23b25ce944ce9c0",
+        "version": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
+        "signature": "4e0a4d84b15692ea8669fe4f3d05a4f204567906b1347da7a58b75f45bae48d3",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/ts3.6/base.d.ts": {
