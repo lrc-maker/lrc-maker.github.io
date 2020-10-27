@@ -142,8 +142,8 @@
         "affectsGlobalScope": true
       },
       "../worker/metadata.d.ts": {
-        "version": "4dc9af31ea889d0d0da169f295ffabbe667b3f23eb1edf7545f4677207c0120b",
-        "signature": "4dc9af31ea889d0d0da169f295ffabbe667b3f23eb1edf7545f4677207c0120b",
+        "version": "a3c26c63b200f7fa43e74e1ab762d9ce84a7a30eb94544923e3f31354c1087fa",
+        "signature": "a3c26c63b200f7fa43e74e1ab762d9ce84a7a30eb94544923e3f31354c1087fa",
         "affectsGlobalScope": true
       },
       "../worker/ncmc-worker.ts": {
@@ -508,7 +508,7 @@
       }
     },
     "options": {
-      "target": 5,
+      "target": 4,
       "module": 99,
       "lib": [
         "lib.webworker.d.ts",

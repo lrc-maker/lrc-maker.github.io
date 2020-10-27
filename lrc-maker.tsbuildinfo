@@ -302,8 +302,8 @@
         "affectsGlobalScope": false
       },
       "../src/metadata.d.ts": {
-        "version": "4dc9af31ea889d0d0da169f295ffabbe667b3f23eb1edf7545f4677207c0120b",
-        "signature": "4dc9af31ea889d0d0da169f295ffabbe667b3f23eb1edf7545f4677207c0120b",
+        "version": "a3c26c63b200f7fa43e74e1ab762d9ce84a7a30eb94544923e3f31354c1087fa",
+        "signature": "a3c26c63b200f7fa43e74e1ab762d9ce84a7a30eb94544923e3f31354c1087fa",
         "affectsGlobalScope": true
       },
       "../types/post-message.d.ts": {
@@ -342,7 +342,7 @@
         "affectsGlobalScope": false
       },
       "../src/polyfill/details-summary.ts": {
-        "version": "a62eb459ce9d8b2d5e4ee362dba61a6771f5996565a9cff7b2ae089f98133044",
+        "version": "fe4e6e71b83723594c8bc048f37707ef1a008474a334703501030aef9af22c1b",
         "signature": "04ab8066aa93dcfac3f5e62fdc15a8516c331044fd3dd26c0bd9d8f745510947",
         "affectsGlobalScope": true
       },
@@ -693,7 +693,7 @@
       }
     },
     "options": {
-      "target": 5,
+      "target": 4,
       "module": 99,
       "lib": [
         "lib.dom.d.ts",
